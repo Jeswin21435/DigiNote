@@ -1,0 +1,93 @@
+.top-panel {
+    height: 100px;
+    border-bottom: solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+.top-panel-username-container {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-pic {
+    height: 80%;
+}
+#username-panel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-left: 25px;
+}
+#open-sidebar {
+    height: 80%;
+    margin-left: 15px;
+}
+.rules-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+.rules-txt {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* responsiveness */
+
+@media all and (max-width: 1000px) {
+    .top-panel {
+        height: 80px;
+    }
+    .top-panel-username-container {
+        width: 45%;
+    }
+    #username-panel {
+        font-size: 25px;
+    }
+}
+@media all and (max-width: 800px) {
+    .top-panel {
+        height: 60px;
+    }
+    .top-panel-username-container {
+        width: 55%;
+    }
+    .rules-container {
+        width: 70%;
+    }
+    .rules-txt {
+        font-size: 17px;
+    }
+}
+@media all and (max-width: 600px) {
+    .top-panel {
+        height: 40px;
+    }
+    #username-panel {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+}
+@media all and (max-width: 450px) {
+    .top-panel {
+        height: 25px;
+    }
+    .top-panel-username-container {
+        width: 60%;
+    }
+    #username-panel {
+        font-size: 14px;
+    }
+    .rules-container {
+        width: 80%;
+    }
+    .rules-txt {
+        font-size: 13px;
+    }
+}

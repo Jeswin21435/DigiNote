@@ -1,0 +1,108 @@
+.notes-container {
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 80px;
+}
+.notes {
+    width: 100%;
+    height: 100px;
+    border-radius: 20px; 
+    background-image: url('https://cdn.pixabay.com/photo/2021/03/16/13/55/background-6099868_960_720.jpg');
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.notes-title {
+    max-width: 70%;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: rgba(256, 256, 256, 0.4);
+}
+.notes-icon {
+    height: 100%;
+}
+.notes-icon-container {
+    margin-left: 8%;
+    height: 80%
+}
+
+@media all and (max-width: 1000px) {
+    .notes {
+        border-radius: 10px; 
+        height: 70px;
+    }
+    .notes-title {
+        font-size: 19px;
+        margin-left: 8px;
+    }
+}
+@media all and (max-width: 800px) {
+    .notes-container {
+        margin-top: 50px;
+    }
+    .notes {
+        border-radius: 10px; 
+        height: 60px;
+    }
+    .notes-title {
+        font-size: 16px;
+        margin-left: 8px;
+    }
+}
+@media all and (max-width: 700px) {
+    .notes {
+        border-radius: 7px; 
+        height: 50px;
+    }
+    .notes-title {
+        font-size: 13px;
+        margin-left: 8px;
+    }
+}
+@media all and (max-width: 600px) {
+    .notes {
+        border-radius: 7px; 
+        height: 40px;
+    }
+    .notes-title {
+        font-size: 12px;
+        margin-left: 6px;
+    }
+}
+@media all and (max-width: 540px) {
+    .notes {
+        border-radius: 7px; 
+        height: 40px;
+        margin-top: 30px;
+    }
+    .notes-title {
+        font-size: 10px;
+        margin-left: 6px;
+    }
+}
+@media all and (max-width: 500px) {
+    .notes-container {
+        margin-top: 30px;
+    }
+}
+@media all and (max-width: 400px) {
+    .notes-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    .notes {
+        border-radius: 7px; 
+        height: 40px;
+    }
+    .notes-title {
+        font-size: 9px;
+        margin-left: 5px;
+    }
+    .notes-icon-container {
+        height: 70%;
+        margin-left: 5%;
+    }
+}
