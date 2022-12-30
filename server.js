@@ -3,6 +3,8 @@ const apiRegister = require('./exports/api-register.js');
 const apiAuthenticate = require('./exports/api-authenticate.js');
 const apiGetUsername = require('./exports/api-get-username');
 
+// del me afterwards
+
 //Public Variables
 const express = require('express');
 const app = express();
